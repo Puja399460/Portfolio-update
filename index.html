@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puja Adhikary - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Puja Adhikary</a>
+            <ul class="nav-links">
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#skills-interests">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+        </div>
+    </nav>
+    <main id="home">
+         <header class="main-header"> 
+            <img src="img h.jpg" alt="img h" class="profile-pic">
+            <h1><span id="typing-text"></span></h1>
+        </header> 
+        <section id="about-me" class="container">
+            <h2>About Me</h2>
+            <p>I’m Puja Adhikary from Mogra, Hooghly. I hold a Bachelor’s degree in English and have completed a Web
+                Development course. With strong communication and technical skills, I build clean and user-friendly
+                websites.</p>
+        </section>
+        <section id="skills-interests" class="container">
+            <h2>Skills & Interests</h2>
+            <div>
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML & Web Design</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Interests</h3>
+                <ul>
+                    <li>Web Designing</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Traveling</li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>This website showcases key concepts of web development, including HTML, CSS, and related
+                        technologies.</p>
+                    <a href="https://puja399460.github.io/first/#section3" class="project-link">View On GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Photo Gallery Website</h3>
+                    <p>This is a basic photo gallery website designed with a clean layout to display images in an
+                        organized and visually appealing manner.</p>
+                    <a href="https://puja399460.github.io/gal/" class="project-link">View On GitHub</a>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </section>
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <form class="contact-form" autocomplete="off">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-links">
+            <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" aria-label="Email">Email</a>
+        </div>
+        <div class="footer-copy">&copy; 2025 Puja. All rights reserved.</div>
+    </footer>
+    <button id="scrollToTopBtn" class="scroll-to-top" aria-label="Scroll to top">&#8679;</button>
+    <script src="darkmode.js"></script>
+    <script src="typing.js"></script>
+    <script src="scrolltotop.js"></script>
+</body>
+
+</html>
